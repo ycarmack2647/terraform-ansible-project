@@ -13,3 +13,8 @@ variable "public_key_path" {
   description = "Path to your public SSH key"
   default     = "~/.ssh/id_rsa.pub"
 }
+
+variable "availability_zones" {
+  type    = list(string)
+  default = ["us-east-1a", "us-east-1b"]
+}
