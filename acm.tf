@@ -9,7 +9,7 @@ data "aws_acm_certificate" "existing_cert" {
   provider    = aws.us_east_1
   domain      = var.domain_name
   statuses    = ["ISSUED"]
-  most_recent = true  # Gets the most recently issued certificate
+  most_recent = true
 }
 
 # Alternatively, if you know the certificate ARN, you can use:
