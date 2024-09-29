@@ -23,7 +23,7 @@ variable "project_name" {
 variable "my_ip_address" {
   description = "Your public IP address to allow SSH access"
   type        = string
-  default     = "73.86.194.218" # Replace with your actual public IP address
+  default     = "youripaddress" # Replace with your actual public IP address
 }
 
 # Example variables.tf
